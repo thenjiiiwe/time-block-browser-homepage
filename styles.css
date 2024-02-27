@@ -1,43 +1,41 @@
 /* Centering the content on the page */
 body {
-    background-image: url('background.png'); /* Set background size and position */
-    background-size: cover; /* Cover the entire viewport */
-    background-position: center; /* Center the image */
+    background-image: url('background.png'); /* Set background image */
+    background-size: cover;
+    background-position: center;
     background-color: #F8F5ED; 
     display: flex;
-    font-family: "Montserrat", sans-serif;
-    flex-direction: column; /* Change flex direction to column */
+    font-family: "Raleway", sans-serif;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     height: 100vh;
     margin: 0;
 }
 
-/* Styling Clock */
+/* Style for the clock */
 #clock {
-    font-family: "Raleway", sans-serif;
     text-align: center;
     font-size: 25px;
     color: #333;
     padding: 20px;
     border-radius: 10px;
-    margin-bottom: 20px; /* Add some margin at the bottom */
+    margin-bottom: 20px;
 }
 
 /* Style for the task */
 .task {
-    font-family: "Raleway", sans-serif;
-    font-size: 90px; /* Larger font size for the task */
-    font-weight: 700;
-    color: #000; /* dark gray */
-    text-align: center; /* Center-align the task */
-    margin-bottom: 10px; /* Add spacing between task and time */
+    font-size: 90px;
+    font-weight: 400;
+    color: #000;
+    text-align: center;
+    margin-bottom: 10px;
     padding-bottom: 20px;
 }
 
 /* Style for the description */
 .description {
-    font-size: 30px; /* Smaller font size for the description */
-    text-align: center; /* Center-align the description */
-    color: #333; /* Medium gray color for the description */
+    font-size: 30px;
+    text-align: center;
+    color: #333;
 }
